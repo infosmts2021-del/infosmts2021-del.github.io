@@ -1,0 +1,23 @@
+title: International Travel Guide
+description: Explore the world with our comprehensive travel guides
+baseurl: ""
+url: "https://infosmts2021-del.github.io"
+theme: minima
+
+# Author
+author:
+  name: Travel Guide
+  email: hello@travelblog.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - about.md
+  - destinations.md
+  - blog.md
+  - contact.md
